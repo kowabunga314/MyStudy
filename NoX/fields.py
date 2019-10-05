@@ -13,7 +13,7 @@ class DropdownField(models.Field):
 
         self.options = str_options
 
-        super.__init__(*args, **kwargs)
+        super(DropdownField, self).__init__(*args, **kwargs)
 
     def deconstruct(self):
         name, path, args, kwargs = super().deconstruct()
