@@ -11,7 +11,4 @@ class BaseObject(models.Model):
 
 class BaseField(models.Model):
     name = models.CharField(max_length=255)
-    
-
-
 
